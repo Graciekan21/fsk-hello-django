@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-cx@_8c8jg6389sx11ghus+-32lk-vi^=bjsuc91q@j=9ddz(@+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-graciekan21-fskhellodja-x955c92v8ta.ws-eu108.gitpod.io']
 CSRF_TRUSTED_ORIGINS = ['https://8000-graciekan21-fskhellodja-x955c92v8ta.ws-eu108.gitpod.io']

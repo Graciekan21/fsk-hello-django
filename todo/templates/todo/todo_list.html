@@ -19,13 +19,16 @@
                     <a href="/ Toggle/{{ item.id }}">
                         <button>Toggle</button>
                     </a>
-
                 </td>
                 <td>
                     <a href="/edit/{{ item.id }}">
                         <button>Eidt</button>
                     </a>
-
+                </td>
+                <td>
+                    <a href="/delete/{{ item.id }}">
+                        Delete
+                    </a>
                 </td>
             </tr>
             {% empty %}

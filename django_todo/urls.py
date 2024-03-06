@@ -16,8 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from todo.views import get_todo_list, add_item
-
+from todo import views
 
 
 urlpatterns = [
@@ -27,5 +26,6 @@ urlpatterns = [
     path('edit/<item_id>', views.edit_item, name='edit'),
     path('toggle/<item_id>', views.toggle_item, name='toggle'),
     path('delete/<item_id>', views.delete_item, name='delete'),
+    
 ]
 
